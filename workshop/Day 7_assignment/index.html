@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    let percentage = parseFloat(prompt("Enter your percentage:"));
+    console.log("Your percentage is: ", percentage);
+
+    function grade(percentage) {
+    if (percentage >= 90) {
+    console.log("Grade: \"A+\" It's outstanding!!");
+    }
+    else if (percentage >= 80 && percentage < 90) { console.log("Grade: \"A\" It's Excellent!!"); } else if (percentage>
+        = 70 && percentage < 80) { console.log("Grade: \"B+\" It's Very Good!!"); } else if (percentage>= 60 &&
+            percentage < 70) { console.log("Grade: \"B\" It's Good!!"); } else if (percentage>= 50 && percentage < 60) {
+                    console.log("Grade: \"C+\" It's Above Average!!"); } else if (percentage>= 40 && percentage < 50) {
+                        console.log("Grade: \"C\" It's Average!!"); } else if (percentage>= 25 && percentage < 40) {
+                            console.log("Grade: \"D\" It's Below Average!!"); } else if (percentage>= 1 && percentage <
+                                25) { console.log("Grade: \"E\" It's Insufficient!!"); } else { console.log("NULL"); } }
+                                grade(percentage); </body>
+
+</html>

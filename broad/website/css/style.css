@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand: #f10e34;
+  --brand1: #222222;
+  --w: #fff;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f3f3f3;
+}
+header {
+  background: var(--brand1);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.banner {
+  margin: auto;
+}
+.logo {
+  margin: 0 0 35px 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.topmenu {
+  padding: 16px;
+  text-align: right;
+}
+.topmenu li {
+  display: inline;
+}
+.topmenu li:last-child a {
+  border: none;
+}
+.topmenu li a {
+  color: var(--w);
+  border-right: 1px solid var(--w);
+  padding: 0px 10px;
+  font-size: 12px;
+}
+.search_input {
+  width: 530px;
+  height: 38px;
+  padding: 12px;
+  border-radius: 4px;
+}
+button {
+  width: 55px;
+  height: 35px;
+  background: #f10e34;
+  color: #fff;
+  margin-left: -3px;
+  border: 0px;
+  border-radius: 0px 3px 3px 0px;
+  padding: 9px;
+}
+.cart {
+  display: flex;
+}
+.mannav {
+  background: var(--brand);
+  line-height: 45px;
+}
+.list li {
+  display: inline;
+  padding: 20px;
+}
+.list li a {
+  color: white;
+}
+.cat {
+  color: #fff;
+}
+.symbol {
+  margin-right: 15px;
+}
+.banner_left {
+  width: 300px;
+}
+.banner_left ul {
+  list-style: url(../images/arrow.png);
+  padding: 0 30px 0 30px;
+}
+.banner_left li {
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.banner_left li a {
+  color: #222222;
+}
+.banner_right {
+  width: 835px;
+}
+.banner_right img {
+  display: block;
+}
+.down_banner {
+  background: var(--brand);
+  width: 770px;
+  margin: 0px 5px 0 50px;
+}
+.hot_deals {
+  width: 300px;
+  /* background: #fff; */
+}
+.left_wrapper {
+  width: 300px;
+  /* background: #fff; */
+  /* margin-top: 10px; */
+}
+.down_banner {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.upper_wrapper {
+  margin: 40px 0 0 0;
+  background: white;
+  padding: 41px;
+
+  /* border-bottom: 1px solid; */
+}
+.upper_wrapper h3 {
+  /* margin-left: px;
+  margin-right: px; */
+}
+.upper_wrapper h3 {
+  border-bottom: 1px solid #999;
+  padding: 20px;
+}
+.shoes {
+  text-align: center;
+}
+.lower_wrapper {
+  margin: 10px;
+  background: white;
+}
+.lower_wrapper {
+  margin: 40px 0 0 0;
+  /* text-align: center; */
+}
+.lower_wrapper h3 {
+  border-bottom: 1px solid #999;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.bag {
+  padding: 40px;
+  text-align: center;
+}
+.right_wrapper1 {
+  background: white;
+  width: 835px;
+  margin-top: 30px;
+}
+.right_wrapper2 {
+  background: white;
+  width: 835px;
+  margin-top: 20px;
+}
+.right_list {
+  background: white;
+  margin-top: 40px;
+}
+.products_list {
+  border-bottom: 1px solid;
+  background: white;
+}
+.products_list li {
+  display: inline;
+  padding: 20px;
+}
+.products_list h3 {
+  padding: 30px 30px;
+}
+.products_list ul {
+  padding: 30px 60px 0 0;
+}
+.products_list ul li a {
+  color: black;
+}
+.shopping_cart {
+  text-align: center;
+  padding: 40px;
+}
+span {
+  text-decoration: line-through;
+}
+.banner {
+  padding-top: 40px;
+  /* display: block; */
+}
+.banner_laptop {
+  margin-top: 30px;
+}
+.subscribe {
+  background: #fff;
+  padding: 20px;
+  margin-top: 30px;
+}
+.subscribe h3 {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.input p {
+  padding-bottom: 15px;
+}
+.input input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  background-color: #f3f3f3;
+  margin-left: 0px;
+}
+.input button {
+  width: 100px;
+  margin: 20px 0 0 0px;
+  border-radius: 15px;
+}
+.body_wash {
+  margin-top: 20px;
+  background: #fff;
+}
+.featured_products {
+  background: #fff;
+  margin-top: 30px;
+}
+.featured_top {
+  padding: 20px;
+}
+
+.featured_heading {
+  border-bottom: 1px solid #999;
+  padding: 20px;
+}
+.featured_bottom {
+  padding: 20px;
+}
+.camera {
+  padding: 10px;
+}

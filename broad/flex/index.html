@@ -1,0 +1,49 @@
+<!-- flex=>flex is applicable for parent and child -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        background: pink;
+        display: flex;
+        flex-direction: row;
+        height: 800px;
+        flex-wrap: wrap;
+        align-items: flex-end;
+      }
+      .box {
+        border: 2px solid;
+        padding: 30px;
+        width: 600px;
+        height: 150px;
+
+        justify-content: center;
+        align-content: flex-end;
+      }
+      .A {
+        background: red;
+      }
+      .B {
+        background: chartreuse;
+      }
+      .C {
+        background: crimson;
+      }
+      .D {
+        background: darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box A">A</div>
+      <div class="box B">B</div>
+      <div class="box C">C</div>
+      <div class="box D">D</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=div, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 400px;
+        height: 400px;
+        background: brown;
+        transition: 0.9s;
+        position: relative;
+        overflow: hidden;
+      }
+      .box:hover img {
+        transform: scale(2);
+      }
+      .abc {
+        width: 20px;
+        height: 20px;
+        background: yellow;
+        transition: 0.9s;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(60px, 0);
+        transition: 0.9s;
+      }
+      .box:hover .abc {
+        transform: translate(0, 0);
+      }
+      .fb {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        transform: translate(-60px, 0);
+        transition: 0.9s;
+        transform: scale(2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img src="" alt="" width="100%" height="100%" transition:0.2s; />
+      <div class="abc"></div>
+      <div class="fb">
+        <img
+          src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg"
+          alt=""
+          width="30px"
+          height="30px"
+        />
+      </div>
+    </div>
+  </body>
+</html>

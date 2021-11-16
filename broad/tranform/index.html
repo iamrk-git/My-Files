@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        transition: 2s;
+      }
+      .box:hover {
+        transform: rotate(270deg);
+      }
+      .box1 {
+        width: 200px;
+        height: 200px;
+        background-color: rebeccapurple;
+        transition: 2s;
+      }
+      .box1:hover {
+        transform: rotateY(180deg);
+      }
+      .abc:hover {
+        perspective: 1000px;
+      }
+      .box2 {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        transition: 2s;
+        transition: 0.2s;
+      }
+      .box2:hover {
+        transform: translate(20px, 30px);
+      }
+      .center {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        transition: 2s;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        transform: translate(-30%, 30%);
+      }
+      .center:hover {
+      }
+      .box6 {
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+        transition: 2s;
+        transition: 0.2s;
+      }
+
+      .box6:hover {
+        transform: translate(0px, 200px) rotate(60deg) scale(2) skewY(30deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box6"></div>
+    <div class="box"></div>
+    <div class="abc">
+      <div class="box1"></div>
+    </div>
+    <div class="box2"></div>
+    <div class="center"></div>
+  </body>
+</html>
